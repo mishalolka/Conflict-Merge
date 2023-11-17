@@ -8,7 +8,7 @@ const Home = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
         </div>
         <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellen
         </div>
         <div>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
