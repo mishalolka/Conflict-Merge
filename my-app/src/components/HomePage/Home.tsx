@@ -11,7 +11,7 @@ const Home = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
         </div>
         <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </div>
         <Link to={"products"}>to products</Link>
       </div>
