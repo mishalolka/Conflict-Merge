@@ -1,10 +1,14 @@
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
       <div>
-        <div>Home</div>
+        <Button as="a" variant="primary">
+          Button as link
+        </Button>
+        <div className="">Home</div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
           laudantium, sed suscipit nobis, exercitationem qui libero iure
