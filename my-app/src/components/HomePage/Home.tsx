@@ -7,8 +7,6 @@ const Home = () => {
 
         <div>Home</div>
         <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
         <Link to={"products"}>to products</Link>
       </div>
     </>
