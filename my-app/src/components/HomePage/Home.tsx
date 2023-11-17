@@ -4,15 +4,9 @@ const Home = () => {
   return (
     <>
       <div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellen
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </div>
+
+        <div>Home</div>
+        <div>Home</div>
         <Link to={"products"}>to products</Link>
       </div>
     </>
