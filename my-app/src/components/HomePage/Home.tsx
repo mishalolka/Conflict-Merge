@@ -7,6 +7,12 @@ const Home = () => {
         <div>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
         </div>
+        <div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
+        </div>
+        <div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum in repellendus
+        </div>
         <Link to={"products"}>to products</Link>
       </div>
     </>
