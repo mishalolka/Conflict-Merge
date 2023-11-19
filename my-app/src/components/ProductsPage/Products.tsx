@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
 
 const Products = () => {
-    return (
-      <>
+  return (
+    <>
+      <div>
+        <div>Products</div>
         <div>
-          <div>Products</div>
-        <Link to={"/"}>to Home</Link>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          aspernatur debitis ex porro corporis accusantium nam deserunt
+          quibusdam nulla totam natus sequi eaque, possimus at rerum ipsa
+          sapiente. Repellendus, facilis.
         </div>
-      </>
-    );
-  };
-  
-  export default Products;
+        <Link to={"/"}>to Home</Link>
+      </div>
+    </>
+  );
+};
+
+export default Products;
