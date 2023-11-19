@@ -4,10 +4,10 @@ import Fotter from "../../Fotter/Fotter";
 
 const Layout = () => {
     return (
-        <div className="">
+        <div className="wraper">
             <div>
                 <Header />
-                <div>
+                <div className="outLetContainer">
                     <Outlet />
                 </div>
                 <Fotter />

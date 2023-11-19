@@ -1,14 +1,16 @@
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
 
 const Home = () => {
+  
   return (
     <>
-      <div>
+      <div className="container">
         <Button as="a" variant="primary">
           Button as link
         </Button>
-        <div className="">Home</div>
+        <div className={styles.logo}>Home</div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
           laudantium, sed suscipit nobis, exercitationem qui libero iure
