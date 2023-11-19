@@ -6,7 +6,7 @@ const Home = () => {
   
   return (
     <>
-      <div>
+      <div className="container">
         <Button as="a" variant="primary">
           Button as link
         </Button>

@@ -4,27 +4,47 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container">
-          <div className="row">
-            <div className="col-3">
-              <Link className={"navbar-brand"} to="/">
-                <span className={styles.logo}>Party Time!</span>
-              </Link>
-            </div>
-            <div className="col-6">
-                <div className="col">Home</div>
-                <div className="col">Gallery</div>
-                <div className="col">About Party</div>
-                <div className="col">Reservation</div>
-                <div className="col">Contacts</div>
-            </div>
-            <div className="col-3">
-
+      <header>
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+          <div className="container-fluid">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i className="fas fa-bars"></i>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarExample01">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item active">
+                  <Link className="nav-link" aria-current="page" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
+                    Features
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
+                    Pricing
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
+                    About
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
     </>
   );
 };

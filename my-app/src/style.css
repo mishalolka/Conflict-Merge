@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(48, 66, 119, 0.377);
+}
+
+#root, html, body{
+    height: 100%;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.outLetContainer {
+    flex-grow: 1;
+    height: 100%;
+}
