@@ -4,6 +4,8 @@ const Products = () => {
   return (
     <>
       <div>
+        <div className="container">
+
         <div>Products</div>
         <div>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -25,6 +27,8 @@ const Products = () => {
         </div>
         <Link to={"/"}>to Home</Link>
       </div>
+      </div>
+
     </>
   );
 };
