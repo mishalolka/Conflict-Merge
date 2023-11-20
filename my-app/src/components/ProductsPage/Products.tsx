@@ -4,12 +4,8 @@ const Products = () => {
   return (
     <>
       <div>
-<<<<<<< HEAD
-        <div>
-=======
         <div className="container">
-
->>>>>>> main
+        <div style={{width: 90}}>
         <div>Products</div>
         <div>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -30,6 +26,7 @@ const Products = () => {
           sapiente. Repellendus, facilis.
         </div>
         <Link to={"/"}>to Home</Link>
+      </div>
       </div>
       </div>
 
