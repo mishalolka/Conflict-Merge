@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          laudantium, sed suscipit nobis, exercitationem qui libero iure
+          laudantium, sed suscipit nobis, exercitationem qui liberoasd iure
           excepturi dolorem earum omnis, fugiat sint veritatis voluptatem
           assumenda repellat ullam dicta labore.
         </div>
