@@ -5,7 +5,6 @@ const Products = () => {
     <>
       <div>
         <div className="container">
-
         <div>Products</div>
         <div>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -28,7 +27,6 @@ const Products = () => {
         <Link to={"/"}>to Home</Link>
       </div>
       </div>
-
     </>
   );
 };
