@@ -4,7 +4,12 @@ const Products = () => {
   return (
     <>
       <div>
+<<<<<<< HEAD
         <div>
+=======
+        <div className="container">
+
+>>>>>>> main
         <div>Products</div>
         <div>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
